@@ -22,3 +22,19 @@ A Python Object-Oriented Programming (OOP) project that simulates a bank managem
 7. **Aggregation**: Bank object containing Customer and Account objects
 
 ## Project Structure
+bank_management_system/
+├── main.py # Demo application
+├── account.py # Account classes (Abstract, Savings, Checking)
+├── customer.py # Customer class
+├── transaction.py # Transaction class
+├── bank.py # Bank class
+├── exceptions.py # Custom exceptions
+└── README.md # This file
+
+## How to Run
+
+1. Ensure you have Python 3.6+ installed
+2. Clone or download all the project files
+3. Run the main script:
+   ```bash
+   python main.py
